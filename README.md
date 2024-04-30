@@ -1,5 +1,15 @@
 # virtual_patient
 
+## Model Setup Instructions
+
+To set up the necessary model files for this project, follow these steps:
+
+1. **Ensure Required Libraries Are Installed**:
+   Make sure you have the `audeer` library installed, which will be used for downloading and extracting the model files. You can install it using pip:
+
+   ```bash
+   pip install audeer
+
 1. Install the requirements : 
 
     pip install -r requirements.txt
