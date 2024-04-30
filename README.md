@@ -5,16 +5,12 @@
 To set up the necessary model files for this project, follow these steps:
 
 1. **Ensure Required Libraries Are Installed**:
-   Make sure you have the `audeer` library installed, which will be used for downloading and extracting the model files. You can install it using pip:
+   Make sure you have all the dependencies listed in `requirement.txt` are installed. You can install it using pip:
 
    ```bash
-   pip install audeer
+   pip install -r requirements.txt
 
-1. Install the requirements : 
-
-    pip install -r requirements.txt
-
-2. Script to download Tone Emotion Model : 
+2. **Now download the Tone Emotion Model**
 
     import os
     import audeer
