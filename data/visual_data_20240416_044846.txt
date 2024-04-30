@@ -1,0 +1,254 @@
+2024-04-16_04:48:50.305224, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:48:50.598453, The student is not leaning forward, making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:50.788330, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:50.952097, The student is not leaning forward, making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:51.107975, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:51.313559, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:51.501402, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:51.668613, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:51.837018, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:52.009467, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:52.196786, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:52.359328, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:52.518196, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:48:52.681901, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:52.972557, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:48:53.150473, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:53.308578, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:48:53.473061, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:53.632651, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:53.795713, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is fear.
+2024-04-16_04:48:53.964814, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:54.119226, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is surprise.
+2024-04-16_04:48:54.283912, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:48:54.443903, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:48:54.627630, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:54.787038, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:54.946778, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:55.115395, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:55.294029, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:48:55.444253, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is happy.
+2024-04-16_04:48:55.616110, The student is not leaning forward, making eye contact, not smiling, and displaying open posture, current expression is doubt.
+2024-04-16_04:48:55.775256, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:48:55.944339, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is surprise.
+2024-04-16_04:48:56.122127, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is surprise.
+2024-04-16_04:48:56.283281, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is surprise.
+2024-04-16_04:48:56.449926, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is surprise.
+2024-04-16_04:48:56.615094, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is surprise.
+2024-04-16_04:48:56.776309, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is surprise.
+2024-04-16_04:48:56.958448, The student is not leaning forward, making eye contact, not smiling, and displaying open posture, current expression is surprise.
+2024-04-16_04:48:57.130925, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is surprise.
+2024-04-16_04:48:57.295140, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is surprise.
+2024-04-16_04:48:57.456815, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is surprise.
+2024-04-16_04:48:57.606119, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:48:57.772500, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is surprise.
+2024-04-16_04:48:57.954121, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is surprise.
+2024-04-16_04:48:58.125219, The student is not leaning forward, making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:58.285672, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:58.442418, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is surprise.
+2024-04-16_04:48:58.605691, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:58.903814, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:59.078761, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:59.234640, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:59.400475, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:59.559693, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:59.723631, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:48:59.880449, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:00.050381, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:00.219933, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:00.397825, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:00.585061, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:00.759876, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:00.923935, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:01.088186, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:01.237916, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:01.413594, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:01.585615, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:01.767347, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:01.927329, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:02.094269, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:02.260187, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:02.419155, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:02.577245, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:02.763739, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:02.921620, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:03.078760, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:03.254630, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:03.408262, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:03.570707, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:03.741365, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is surprise.
+2024-04-16_04:49:03.918471, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:04.058203, The student is not leaning forward, making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:04.228874, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:04.510792, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:04.687484, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:04.868013, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:05.056295, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:05.218083, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:05.391900, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:05.552101, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:05.720914, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:05.907326, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:06.058876, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:06.222845, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:06.386293, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:06.544558, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:06.717261, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:06.882461, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:07.059297, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:07.223203, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:07.381964, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:07.557461, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:07.720306, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:07.883576, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:08.050147, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:08.216348, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:08.385263, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:08.549129, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:08.722563, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:08.883642, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:09.049560, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:09.227026, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:09.376491, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:09.527645, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:09.696576, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:09.856247, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:10.019825, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:10.323963, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:10.489964, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:10.654741, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:10.812079, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is fear.
+2024-04-16_04:49:10.985033, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is fear.
+2024-04-16_04:49:11.162493, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:11.328120, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:11.483881, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:11.661623, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:11.818398, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:11.982473, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:12.160204, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:12.319570, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:12.497684, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:12.668589, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:12.820932, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:12.983122, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:13.167343, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:13.326724, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:13.495563, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:13.664544, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:13.830607, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:13.992943, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:14.156127, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:14.320024, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:14.497561, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:14.655294, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:14.815939, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:14.999049, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:15.154246, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:15.335453, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:15.502968, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:15.668848, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:15.828450, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:15.985805, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:16.288476, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:16.467637, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:16.635454, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:16.821204, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:16.985500, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:17.155673, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:17.324641, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:17.500480, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:17.659107, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:17.819352, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:17.998637, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:18.159547, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:18.319285, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:18.500587, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:18.657517, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:18.820762, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:18.995613, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:19.162658, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:19.322749, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:19.500146, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:19.655186, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:19.817742, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:19.987663, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:20.162502, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:20.316189, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:20.491932, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:20.652213, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:20.834242, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:20.994773, The student is not leaning forward, making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:21.179711, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:21.340233, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:21.506859, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:21.670391, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:21.949766, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:22.137681, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:22.327449, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:22.509686, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:22.677608, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:22.865336, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:23.055904, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:23.238464, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:23.401372, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:23.568274, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:23.729556, The student is not leaning forward, not making eye contact, not smiling, and not displaying open posture, current expression is angry.
+2024-04-16_04:49:23.908584, The student is not leaning forward, not making eye contact, not smiling, and not displaying open posture, current expression is neutral.
+2024-04-16_04:49:24.101951, The student is not leaning forward, not making eye contact, not smiling, and not displaying open posture, current expression is confused.
+2024-04-16_04:49:24.274938, The student is not leaning forward, not making eye contact, not smiling, and not displaying open posture, current expression is angry.
+2024-04-16_04:49:24.436623, The student is not leaning forward, not making eye contact, not smiling, and not displaying open posture, current expression is neutral.
+2024-04-16_04:49:24.599154, The student is not leaning forward, not making eye contact, not smiling, and not displaying open posture, current expression is neutral.
+2024-04-16_04:49:24.789122, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:24.973920, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:25.130771, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:25.289036, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:25.472016, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:25.636414, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:25.798390, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:25.957672, The student is not leaning forward, not making eye contact, not smiling, and not displaying open posture, current expression is neutral.
+2024-04-16_04:49:26.140312, The student is not leaning forward, not making eye contact, not smiling, and not displaying open posture, current expression is neutral.
+2024-04-16_04:49:26.301894, The student is not leaning forward, not making eye contact, not smiling, and not displaying open posture, current expression is neutral.
+2024-04-16_04:49:26.460870, The student is not leaning forward, not making eye contact, not smiling, and not displaying open posture, current expression is neutral.
+2024-04-16_04:49:26.586703, The student is not leaning forward, not making eye contact, not smiling, and not displaying open posture, current expression is neutral.
+2024-04-16_04:49:26.714871, The student is not leaning forward, not making eye contact, not smiling, and not displaying open posture, current expression is neutral.
+2024-04-16_04:49:26.843291, The student is not leaning forward, not making eye contact, not smiling, and not displaying open posture, current expression is neutral.
+2024-04-16_04:49:26.961121, The student is not leaning forward, not making eye contact, not smiling, and not displaying open posture, current expression is neutral.
+2024-04-16_04:49:27.091966, The student is not leaning forward, not making eye contact, not smiling, and not displaying open posture, current expression is neutral.
+2024-04-16_04:49:27.216306, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:27.518393, The student is not leaning forward, not making eye contact, not smiling, and not displaying open posture, current expression is angry.
+2024-04-16_04:49:27.702827, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:27.892847, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:28.081349, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:28.275088, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is sad.
+2024-04-16_04:49:28.468878, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is doubt.
+2024-04-16_04:49:28.645328, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is doubt.
+2024-04-16_04:49:28.839794, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is doubt.
+2024-04-16_04:49:29.041313, The student is not leaning forward, making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:29.222828, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:29.416767, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:29.599678, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:29.783280, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:29.970468, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:30.160309, The student is not leaning forward, making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:30.345273, The student is not leaning forward, making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:30.541137, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:30.735215, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:30.912986, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:31.105991, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:31.294860, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:31.488365, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:31.686080, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:31.862883, The student is leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:32.029828, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:32.221819, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:32.385713, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:32.580076, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:32.773364, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:32.936056, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:33.113579, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:33.284634, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is confused.
+2024-04-16_04:49:33.473392, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:33.646648, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.
+2024-04-16_04:49:33.827620, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:34.133209, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_04:49:34.310282, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is angry.

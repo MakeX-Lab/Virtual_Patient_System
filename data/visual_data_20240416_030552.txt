@@ -1,0 +1,2 @@
+2024-04-16_03:05:58.485527, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
+2024-04-16_03:06:03.177310, The student is not leaning forward, not making eye contact, not smiling, and displaying open posture, current expression is neutral.
