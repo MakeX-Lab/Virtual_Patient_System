@@ -1,6 +1,10 @@
 # virtual_patient
 
-Script to download Tone Emotion Model : 
+1. Install the requirements : 
+
+    pip install -r requirements.txt
+
+2. Script to download Tone Emotion Model : 
 
     import os
     import audeer
@@ -28,3 +32,6 @@ Script to download Tone Emotion Model :
             model_root, 
             verbose=True,
         )
+
+
+
