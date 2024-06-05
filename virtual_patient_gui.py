@@ -21,8 +21,8 @@ import re
 load_dotenv()
 
 # API keys
-openai.api_key = os.getenv("OPENAI_API_KEY_4o")
-assistant_id = os.getenv("VP_ASSIST_KEY_4o")
+openai.api_key = os.getenv("OPENAI_API_KEY")
+assistant_id = os.getenv("VP_ASSIST_KEY")
 
 class VirtualPatientApp:
     def __init__(self, root, thread_id):
