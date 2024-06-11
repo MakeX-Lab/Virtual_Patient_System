@@ -306,7 +306,7 @@ def initialize_visual_emotion(callback):
                             # else:
                             #     oldhead_height = x
                             #     head_height = x
-                            print("HERE>>>>>>>>>>0")
+                            # print("HERE>>>>>>>>>>0")
                             cv2.putText(image, "Nods:", (440, 240),
                                         cv2.FONT_HERSHEY_SIMPLEX, 2, (255, 0, 0), 3)
                             cv2.putText(image, str(nods), (500, 290),
@@ -446,18 +446,18 @@ def initialize_visual_emotion(callback):
                     
 
                     # SHOULDERS / LEAN
-                    print("HERE>>>>>>>>>>1")
+                    # print("HERE>>>>>>>>>>1")
                     left_shoulder = landmarks[mp_holistic.PoseLandmark.LEFT_SHOULDER]
-                    print("HERE>>>>>>>>>>10000")
+                    # print("HERE>>>>>>>>>>10000")
                     right_shoulder = landmarks[mp_holistic.PoseLandmark.RIGHT_SHOULDER]
-                    print("HERE>>>>>>>>>>20000")
+                    # print("HERE>>>>>>>>>>20000")
                     
-                    print(frameCounter)
+                    # print(frameCounter)
                     if frameCounter == 10:
                         frameCounter = 0
-                    print(frameCounter)
+                    # print(frameCounter)
 
-                    print("HERE>>>>>>>>>>2")
+                    # print("HERE>>>>>>>>>>2")
                     
                     shoulder_width = math.sqrt(
                         (abs(left_shoulder.y - right_shoulder.y))**2 + (abs(left_shoulder.x - right_shoulder.x))**2)
@@ -470,7 +470,7 @@ def initialize_visual_emotion(callback):
                         leanFlag = False
                         outLeaning = "not "
                         
-                    print("HERE>>>>>>>>>>3")
+                    # print("HERE>>>>>>>>>>3")
 
                     if frameCounter == 0:
 
@@ -577,7 +577,7 @@ def initialize_visual_emotion(callback):
                         print(f"{datetime.now().strftime('%Y-%m-%d_%H:%M:%S.%f')}, The student is a {outAge} year old {outRace} {outGender}. {pronoun1} is {outLeaning}leaning forward, {outEyeContact}making eye contact, {outSmiling}smiling, and {outOpen}displaying open posture. {pronoun2} current expression is {dominant_emotion}. {pronoun1} has nodded in acknowledgement {nods} times.", file=file)
                 elif profile == -1:
                     if recording:
-                        print(f"{datetime.now().strftime('%Y-%m-%d_%H:%M:%S.%f')}, The student is {outLeaning}leaning forward, {outEyeContact}making eye contact, {outSmiling}smiling, and {outOpen}displaying open posture, current expression is {dominant_emotion}.", file=file)
+                        print(f"{datetime.now().strftime('%Y-%m-%d_%H:%M:%S.%f')}, The student is {outLeaning}leaning forward, {outEyeContact}making eye contact, {outSmiling}smiling, and {outOpen}displaying open posture, current expression is {dominant_emotion}, has nodded in acknowledgement {nods} times.", file=file)
                     else:
                         print(f"{datetime.now().strftime('%Y-%m-%d_%H:%M:%S.%f')}, The student is {outLeaning}leaning forward, {outEyeContact}making eye contact, {outSmiling}smiling, and {outOpen}displaying open posture, current expression is {dominant_emotion}, nodded {nods} times.", file=file)
 
