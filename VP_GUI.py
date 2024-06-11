@@ -15,7 +15,20 @@ from dotenv import load_dotenv
 import pygame
 import subprocess
 import random
+from collections import Counter
+import audonnx
+import audinterface
 import visual_emotion_model.visual_emotion_new as ve
+
+tone_emotion_model = audonnx.load('tone_emotion_model')
+
+interface = audinterface.Feature(
+    tone_emotion_model.labels('logits'),
+    process_func=tone_emotion_model,
+    process_func_args={
+        'outputs': 'logits',
+    }
+)
 
 # Load environment variables
 load_dotenv()
@@ -25,11 +38,12 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 assistant_id = os.getenv("VP_ASSIST_KEY")
 
 class VirtualPatientApp:
-    def __init__(self, root, thread_id):
+    def __init__(self, root, thread_id, voice):
         self.root = root
         self.root.title("Virtual Patient Assistant")
 
         self.thread_id = thread_id
+        self.voice = voice
 
         # Set a prettier font
         self.font = ("Helvetica", 12)
@@ -87,11 +101,6 @@ class VirtualPatientApp:
 
         # Start visual emotion detection script
         threading.Thread(target=self.start_visual_emotion_detection).start()
-        
-        # visual_emotion_script_path = "visual_emotion_model/visual_emotion_2.py"
-        # subprocess.Popen(["python", visual_emotion_script_path])
-        # print("Starting up the Visual_Emotion_Detection Model!!!")
-        # time.sleep(10)  # Wait for the model to start
 
         # Update the camera feed
         self.update_camera_feed()
@@ -116,27 +125,6 @@ class VirtualPatientApp:
         self.camera_label.imgtk = imgtk
         self.camera_label.configure(image=imgtk)
         
-        
-        
-
-    # def update_camera_feed(self):
-    #     try:
-    #         # Read the latest frame
-    #         img = Image.open('cache/current_frame.jpg')
-
-            # width, height = img.size
-            # aspect_ratio = width / height
-            # # print(f"aspect ratio: {aspect_ratio}")
-            # new_width = 500
-            # new_height = int(new_width / aspect_ratio)
-    #         img = img.resize((new_width, new_height), Image.LANCZOS)
-
-    #         imgtk = ImageTk.PhotoImage(image=img)
-    #         self.camera_label.imgtk = imgtk
-    #         self.camera_label.configure(image=imgtk)
-    #     except Exception as e:
-    #         print(f"Error reading image: {e}")
-    #     self.root.after(100, self.update_camera_feed)
         
     def update_avatar_image(self):
         try:
@@ -195,6 +183,14 @@ class VirtualPatientApp:
         input_audio_file_path = os.path.join('cache', 'audio_input.wav')
         write(input_audio_file_path, self.fs, recorded_audio)
         transcribed_text = self.transcribe_audio(input_audio_file_path)
+        
+        visual_emotion_summary = get_visual_emo_data(self.start_time, self.end_time)
+        speech_emotion_summary = get_speech_emo_data()
+        
+        user_input = transcribed_text + visual_emotion_summary + speech_emotion_summary
+        
+        print(visual_emotion_summary)
+        print(speech_emotion_summary)
 
         # Get current timestamp
         timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -204,7 +200,7 @@ class VirtualPatientApp:
 
         # Update the UI to indicate we are getting a response
         self.virtual_patient_output_text.insert(tk.END, f"{timestamp} - Getting response...\n")
-        threading.Thread(target=self.get_and_process_response, args=(transcribed_text, timestamp)).start()
+        threading.Thread(target=self.get_and_process_response, args=(user_input, timestamp)).start()
 
     def transcribe_audio(self, file_path):
         model = whisper.load_model("tiny.en")
@@ -227,9 +223,7 @@ class VirtualPatientApp:
 
     def text_to_speech(self, text):
         headers = {"Authorization": f"Bearer {openai.api_key}"}
-        voices = ["alloy","echo","fable","onyx","nova","shimmer"]
-        selected_voice = random.choice(voices)
-        data = {"model": "tts-1", "input": text, "voice": selected_voice, "response_format": "mp3"}
+        data = {"model": "tts-1", "input": text, "voice": self.voice, "response_format": "mp3"}
         response = requests.post("https://api.openai.com/v1/audio/speech", headers=headers, json=data, stream=True)
         output_file = os.path.join('cache', 'patient_response.mp3')
         if response.status_code == 200:
@@ -246,7 +240,132 @@ class VirtualPatientApp:
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             time.sleep(1)
+            
+def summarize_emotion_data(data):
+    # Initializing counters for each behavior and expression
+    leaning = Counter()
+    eye_contact = Counter()
+    smiling = Counter()
+    posture = Counter()
+    expression = Counter()
+    nods = 0
 
+    # Parse each record in the data
+    for record in data:
+        # Clean up any newline characters and split the record
+        parts = record.strip().split(", ")
+        if len(parts) < 2:
+            continue  # Skip if the record is not in expected format
+
+        # The first part is timestamp, ignore it, the rest are behaviors and expression
+        behaviors = parts[1:5]  # Assumes exactly four behavior phrases before the expression
+        current_expression = parts[5].split(' is ')[-1]
+        nods = int(parts[-1].split(' ')[-2])
+
+        # Tallying each behavior safely
+        if len(behaviors) == 4:  # Check if there are exactly four behavior components
+            leaning[behaviors[0]] += 1
+            eye_contact[behaviors[1]] += 1
+            smiling[behaviors[2]] += 1
+            posture[behaviors[3]] += 1
+            expression[current_expression] += 1
+            
+
+    # Total number of records processed
+    total_entries = len(data)
+    if total_entries == 0:
+        return "No data to summarize."
+
+    # Building the summary
+    
+    summary = [
+        f"[Visual emotion: ",
+        f"The student is {'not leaning forward' if leaning['The student is not leaning forward'] > leaning['The student is leaning forward'] else 'leaning forward'} ({max(leaning['The student is not leaning forward'], leaning['The student is leaning forward']) / total_entries:.1%}) more often than {'leaning forward' if leaning['The student is not leaning forward'] > leaning['The student is leaning forward'] else 'not leaning forward'} ({min(leaning['The student is not leaning forward'], leaning['The student is leaning forward']) / total_entries:.1%})",
+        f"He/she is {'not making eye contact' if eye_contact['not making eye contact'] > eye_contact['making eye contact'] else 'making eye contact'} ({max(eye_contact['not making eye contact'], eye_contact['making eye contact']) / total_entries:.1%}) more often than {'making eye contact' if eye_contact['not making eye contact'] > eye_contact['making eye contact'] else 'not making eye contact'} ({min(eye_contact['not making eye contact'], eye_contact['making eye contact']) / total_entries:.1%})",
+        f"He/she is {'not smiling' if smiling['not smiling'] > smiling['smiling'] else 'smiling'} ({max(smiling['not smiling'], smiling['smiling']) / total_entries:.1%}) more often than {'smiling' if smiling['not smiling'] > smiling['smiling'] else 'not smiling'} ({min(smiling['not smiling'], smiling['smiling']) / total_entries:.1%})",
+        f"He/she is {'not displaying open posture' if posture['not displaying open posture'] > posture['displaying open posture'] else 'displaying open posture'} ({max(posture['not displaying open posture'], posture['displaying open posture']) / total_entries:.1%}) more often than {'displaying open posture' if posture['not displaying open posture'] > posture['displaying open posture'] else 'not displaying open posture'} ({min(posture['not displaying open posture'], posture['displaying open posture']) / total_entries:.1%})",
+        f"He/she has nodded {nods} times in acknowledgment since the last interaction,",
+    ]
+
+    # Adding all expression percentages
+    expressions_summary = ", ".join(f"{expr} ({count / total_entries:.1%})" for expr, count in expression.items())
+    summary.append(f"Expressions: {expressions_summary}]")
+    
+    # print(". ".join(summary))
+    return ". ".join(summary)
+        
+def get_visual_emo_data(start_time, end_time):
+    
+    start_time = datetime.strptime(start_time, '%Y-%m-%d_%H:%M:%S.%f')
+    end_time = datetime.strptime(end_time, '%Y-%m-%d_%H:%M:%S.%f')
+    
+    time.sleep(2)
+    
+    # Directory containing the files
+    directory = '/Users/saran/CODE/GITHUB/Virtual_Patient_System/data'
+
+    # Get all files in the directory
+    files = os.listdir(directory)
+
+    # Filter for text files, assuming they end with '.txt'
+    text_files = [file for file in files if file.endswith('.txt')]
+
+    # Check if there are any text files
+    if not text_files:
+        print("No text files found in the directory.")
+    else:
+        # Sort files by name (which includes the timestamp if formatted correctly)
+        text_files.sort()
+
+        # The latest file will be the last one in the sorted list
+        latest_file = text_files[-1]
+
+        # Full path to the latest file
+        latest_file_path = os.path.join(directory, latest_file)
+        
+        # print("Latest File: ", latest_file_path)
+        # print(start_time, " to ", end_time)
+
+        # Read the contents of the latest file
+        with open(latest_file_path, 'r') as file:
+            # Read the lines from the file
+            lines = file.readlines()
+
+            # Filter lines
+            filtered_lines = []
+            for line in lines:
+                # Extract the timestamp from the line
+                timestamp_str = line.split(',')[0].strip()
+                timestamp = datetime.strptime(timestamp_str, '%Y-%m-%d_%H:%M:%S.%f')
+                # print(timestamp)
+
+                # Check if the timestamp is within the range
+                if start_time <= timestamp <= end_time:
+                    print(line)
+                    filtered_lines.append(line)
+
+        summary = summarize_emotion_data(filtered_lines)
+        return(summary)
+    
+def get_speech_emo_data():
+    audio_files = []
+    audio_files.append('./cache/audio_input.wav')
+    result = interface.process_files(audio_files)
+
+    row = result.iloc[0]
+
+    # Extract specific values
+    arousal = round(row['arousal'], 2)
+    dominance = round(row['dominance'], 2)
+    valence = round(row['valence'], 2)
+
+    # Print the values
+    summary = f"[Speech emotion: Arousal {arousal}, Dominance {dominance}, Valence {valence}]"
+    # print(summary)
+
+    return summary
+    
+    
 def create_thread():
     thread = openai.beta.threads.create()
     return thread.id
@@ -280,5 +399,8 @@ def check_status(run_id, thread_id):
 if __name__ == "__main__":
     root = tk.Tk()
     thread_id = create_thread()
-    app = VirtualPatientApp(root, thread_id)
+    voices = ["alloy","echo","fable","onyx","nova","shimmer"]
+    selected_voice = random.choice(voices)
+    print("Selected Voice: ", selected_voice)
+    app = VirtualPatientApp(root, thread_id, selected_voice)
     root.mainloop()
